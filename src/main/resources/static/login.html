@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        .first-row-vertical-margin {
+            margin-top: 25%;
+        }
+
+        .vertical-margin {
+            margin-bottom: 1%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <form role="form" action="/login" method="post">
+        <div class="row vertical-margin first-row-vertical-margin">
+            <div class="col-lg-3 col-lg-offset-4 col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
+                <input type="email" class="form-control" placeholder="邮箱" name="email">
+            </div>
+        </div>
+        <div class="row vertical-margin">
+            <div class="col-lg-3 col-lg-offset-4 col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
+                <input type="password" class="form-control" placeholder="密码" name="password">
+            </div>
+        </div>
+        <div class="row vertical-margin">
+            <div class="col-lg-3 col-lg-offset-4 col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3">
+                <button type="submit" class="btn btn-primary btn-block">登录</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</html>
